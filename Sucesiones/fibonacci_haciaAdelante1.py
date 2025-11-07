@@ -14,8 +14,10 @@ Versión adaptada del material del Prof. Roberto Méndez Méndez
 
 Software: Python (implementado en GitHub)
 
-Editor:Cynthia
-
+Editores: Ciros Ortíz Diego
+          Isauro Trinidad Cynthia 
+          Soto Álvarez Regina 
+          
 Creado: 06 / 11 / 2025
 """
 def fibAbel(n: int) -> int:
