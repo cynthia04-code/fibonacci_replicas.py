@@ -14,6 +14,10 @@ Versión adaptada del material del Prof. Roberto Méndez Méndez
 
 Software: Python (implementado en GitHub)
 
+Repositorio: https://github.com/tuusuario/programa-haskell-funcional
+
+Probar codigo en: https://www.jdoodle.com/execute-haskell-online
+
 Editores: Ciros Ortíz Diego
           Isauro Trinidad Cynthia 
           Soto Álvarez Regina 
