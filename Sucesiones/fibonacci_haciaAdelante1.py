@@ -22,16 +22,24 @@ Editores: Ciros Ortíz Diego
           Isauro Trinidad Cynthia 
           Soto Álvarez Regina 
           
-Creado: 06 / 11 / 2025
+Creado:  06 / 11 / 2025
+Editado: 08 / 11 / 2025
 """
 def fibAbel(n: int) -> int:
-    if n == 0: return n
+    if n == 0:
+        return n
     penultimo: int = 0
-    ultimo:    int = 1
+    ultimo: int = 1
     for _ in range(1, n):
         penultimo, ultimo = ultimo, penultimo + ultimo
     return ultimo
 
 if __name__ == "__main__":
-    n = int(input("¿De qué posición quieres el valor de Fiboacci?: "))
-    print(f"El  {n}-ésimo valor de Fibonacci es: {fibAbel(n)}")
+    try:
+        n = int(input("¿De qué posición quieres el valor de Fibonacci?: "))
+        if n < 0:
+            print("Ingresar un número entero que no sea negativo.")
+        else:
+            print(f"El {n}-ésimo valor de Fibonacci es: {fibAbel(n)}")
+    except ValueError:
+        print("Error: Debes ingresar un número entero.")
