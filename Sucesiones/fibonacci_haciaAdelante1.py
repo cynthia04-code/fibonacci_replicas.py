@@ -14,9 +14,9 @@ Versión adaptada del material del Prof. Roberto Méndez Méndez
 
 Software: Python (implementado en GitHub)
 
-Repositorio: https://github.com/tuusuario/programa-haskell-funcional
+Repositorio: :https://github.com/cynthia04-code/fibonacci_replicas.py/tree/main
 
-Probar codigo en: https://www.jdoodle.com/execute-haskell-online
+Probar codigo en: https://www.programiz.com/python-programming/online-compiler/
 
 Editores: Ciros Ortíz Diego
           Isauro Trinidad Cynthia 
